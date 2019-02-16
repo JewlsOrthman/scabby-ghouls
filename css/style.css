@@ -1,0 +1,57 @@
+@font-face{
+  font-family: spook;
+  src: url(../fonts/another-scream.ttf)
+}
+
+body {
+  background-image: url("https://i1.sndcdn.com/avatars-000454581204-tbzb7t-t500x500.jpg");;
+  background-color: black;
+  color: white;
+  margin: 40px 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: spook, monospace;
+  
+  /*ctrl+shift+R for full reload, happy coding!The Doctor Who lorem ipsum is: http://fillerama.io/*/
+}
+
+h1{
+  color: #ff5050;
+  text-shadow: 4px 3px black;
+}
+
+nav{
+  position: fixed;
+  background-color: #262626;
+  width: 100%;
+  top: 0;
+  right: 0;
+  color: white;
+  display: flex;
+  align-content: flex-start;
+}
+
+a {
+  color: white;
+}
+
+a: visited{
+  color: white;
+}
+
+.barr {
+  margin: 10px;
+}
+
+.content {
+  
+  padding: 10px;
+}
+
+p{
+  font-family: 'IM Fell DW Pica SC', serif;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
