@@ -14,7 +14,8 @@ body {
   background-position: center;
   font-family: spook, monospace;
   
-  /*ctrl+shift+R for full reload, happy coding!The Doctor Who lorem ipsum is: http://fillerama.io/*/
+  /*ctrl+shift+R for full reload, happy coding!The Doctor Who lorem ipsum is: http://fillerama.io/ WHEN PUSHING PLEASE DO: git add . then git commit -m "yeeeet" then git push origin master
+  CAROUSEL USE: Lightweight and simple carousel*/
 }
 
 h1{
@@ -39,6 +40,10 @@ a {
 
 a: visited{
   color: white;
+}
+
+a:hover, a:focus {
+  color: red;
 }
 
 .barr {
