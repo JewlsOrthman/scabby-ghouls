@@ -32,6 +32,7 @@ nav{
   color: white;
   display: flex;
   align-content: flex-start;
+  z-index: 999;
 }
 
 a {
@@ -48,6 +49,7 @@ a:hover, a:focus {
 
 .barr {
   margin: 10px;
+  height: 25px;
 }
 
 .content {
